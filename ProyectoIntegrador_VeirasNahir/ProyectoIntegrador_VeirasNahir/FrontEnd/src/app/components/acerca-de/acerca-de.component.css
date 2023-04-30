@@ -33,3 +33,9 @@ div{
     margin-left: 10px;
     font-size: large;
 }
+.row{
+    padding: 20px;
+}
+div{ 
+    background-color: #f8a659;
+}
