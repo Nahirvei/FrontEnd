@@ -52,7 +52,7 @@ public class CProyecto {
             return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
         }
         sProyecto.delete(id);
-        return new ResponseEntity(new Mensaje("Educacion eliminada"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Proyecto eliminado"), HttpStatus.OK);
     }
     
     @PostMapping("/create")
