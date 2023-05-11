@@ -15,6 +15,9 @@ URL = 'https://nvbackend.onrender.com/personas/';
   public lista(): Observable<persona[]>{
     return this.httpClient.get<persona[]>(this.URL + 'lista');
   }
+  public getPersona():Observable<persona>{
+    return this.httpClient.get<persona>(this.URL + 'traer-persona');
+  }
 
   public detail(id: number): Observable<persona>{
     return this.httpClient.get<persona>(this.URL + `detail/${id}`);
