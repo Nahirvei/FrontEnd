@@ -28,6 +28,7 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de/edi
 import { EditProyeComponent } from './components/proyecto/edit-proye/edit-proye.component';
 import { NewProyeComponent } from './components/proyecto/new-proye/new-proye.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,7 +51,8 @@ import { NewProyeComponent } from './components/proyecto/new-proye/new-proye.com
     NewSkillComponent,
     EditAcercaDeComponent,
     EditProyeComponent,
-    NewProyeComponent
+    NewProyeComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -58,7 +60,7 @@ import { NewProyeComponent } from './components/proyecto/new-proye/new-proye.com
     BrowserAnimationsModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-    FormsModule,
+    FormsModule
 
 
   ],
